@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambila Pescados</title>
+    <link rel="shortcut icon" href="./assets/fish-logo-icon-2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+     <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <div class="logo-icon">🐟</div>
+        <h1>Ambila Pescados</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Carrossel Hero -->
+  <section class="hero" id="inicio">
+    <div class="carousel">
+      <div class="carousel-slide slide-1 active">
+        <div class="carousel-content">
+          <h2>Frutos do Mar Frescos Todos os Dias</h2>
+          <p>Do mar direto para sua mesa. Pescados selecionados com a mais alta qualidade e frescor.</p>
+          <a href="#produtos" class="btn">Ver Produtos</a>
+        </div>
+      </div>
+      <div class="carousel-slide slide-2">
+        <div class="carousel-content">
+          <h2>Sabores Autênticos do Oceano</h2>
+          <p>Selecionamos os melhores peixes para proporcionar uma experiência gastronômica incrível.</p>
+          <a href="#produtos" class="btn">Conhecer Variedades</a>
+        </div>
+      </div>
+      <div class="carousel-slide slide-3">
+        <div class="carousel-content">
+          <h2>Tradição e Qualidade desde 1992</h2>
+          <p>Mais de 30 anos de experiência e compromisso com nossos clientes.</p>
+          <a href="#sobre" class="btn">Nossa História</a>
+        </div>
+      </div>
+      <div class="carousel-dots">
+        <div class="dot active" data-slide="0"></div>
+        <div class="dot" data-slide="1"></div>
+        <div class="dot" data-slide="2"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre Nós -->
+  <section class="sobre-nos" id="sobre">
+    <h2 class="section-title">Sobre Nós</h2>
+    <p>Ambila Pescados é referência em qualidade e frescor desde 1988. Nossa história começou com uma pequena barração na praia de Redonda e hoje somos uma das 
+      maiores e mais respeitados comércio de pescados da região. Trabalhamos diretamente com pescadores locais para garantir que nossos produtos cheguem frescos 
+      todos os dias.</p>
+    <p>Nosso compromisso é com a sustentabilidade e a preservação dos oceanos. Por isso, respeitamos os períodos de defeso e trabalhamos apenas com pescado de origem responsável.</p>
+  </section>
+
+  <!-- Produtos e Galeria -->
+  <section class="produtos" id="produtos">
+    <div class="produtos-container">
+      <h2 class="section-title">Nossos Produtos</h2>
+      
+      <div class="categorias">
+        <button class="categoria-btn active" data-categoria="todos">Todos</button>
+        <button class="categoria-btn" data-categoria="peixes">Peixes</button>
+        <button class="categoria-btn" data-categoria="frutos-mar">Frutos do Mar</button>
+        <button class="categoria-btn" data-categoria="filés">Filés</button>
+        <button class="categoria-btn" data-categoria="especiais">Especiais</button>
+      </div>
+      
+      <div class="galeria">
+        <!-- Peixes -->
+        <div class="galeria-item" data-categoria="peixes">
+          <img src="./assets/robalo-fresco.jpg" alt="Robalo Fresco">
+          <div class="galeria-info">
+            <h3>Robalo Fresco</h3>
+            <p>R$ 59,90/kg</p>
+          </div>
+        </div>
+        
+        <div class="galeria-item" data-categoria="peixes">
+          <img src="./assets/cioba-freca.jpg!d" alt="Cioba">
+          <div class="galeria-info">
+            <h3>Cioba</h3>
+            <p>R$ 29,99/kg</p>
+          </div>
+        </div>
+        
+        <div class="galeria-item" data-categoria="peixes">
+          <img src="./assets/guarajuba-fresca.png" alt="Guarajuba amarela">
+          <div class="galeria-info">
+            <h3>Guarajuba amarela</h3>
+            <p>R$ 24,99/kg</p>
+          </div>
+        </div>
+        
+        <!-- Frutos do Mar -->
+        <div class="galeria-item" data-categoria="frutos-mar">
+          <img src="./assets/camarao-fresco.jpg" alt="Camarão Fresco">
+          <div class="galeria-info">
+            <h3>Camarão Fresco</h3>
+            <p>R$ 89,90/kg</p>
+          </div>
+        </div>
+
+        <div class="galeria-item" data-categoria="frutos-mar">
+          <img src="./assets/lobster.jpeg" alt="Camarão Rosa">
+          <div class="galeria-info">
+            <h3>Lagosta Vermelha</h3>
+            <p>R$ 90,00/kg</p>
+          </div>
+        </div>
+        
+        <div class="galeria-item" data-categoria="frutos-mar">
+          <img src="./assets/polvo-fresco.jpg" alt="Polvo">
+          <div class="galeria-info">
+            <h3>Polvo</h3>
+            <p>R$ 69,90/kg</p>
+          </div>
+        </div>
+        
+        <div class="galeria-item" data-categoria="frutos-mar">
+          <img src="./assets/lula-fresca.jpg" alt="Lula Limpa">
+          <div class="galeria-info">
+            <h3>Lula Limpa</h3>
+            <p>R$ 49,90/kg</p>
+          </div>
+        </div>
+        
+        <!-- Filés -->
+        <div class="galeria-item" data-categoria="filés">
+          <img src="./assets/file-pescada.jpg" alt="Filé de Pescada">
+          <div class="galeria-info">
+            <h3>Filé de Pescada</h3>
+            <p>R$ 39,90/kg</p>
+          </div>
+        </div>
+        
+        <div class="galeria-item" data-categoria="filés">
+          <img src="./assets/File-de-merluza.jpg" alt="Filé de Merluza">
+          <div class="galeria-info">
+            <h3>Filé de Merluza</h3>
+            <p>R$ 44,90/kg</p>
+          </div>
+        </div>
+        
+        <!-- Especiais -->
+        <div class="galeria-item" data-categoria="especiais">
+          <img src="./assets/moceca-pronta.webp" alt="Moqueca Pronta">
+          <div class="galeria-info">
+            <h3>Moqueca Pronta</h3>
+            <p>R$ 99,90/kg</p>
+          </div>
+        </div>
+        
+        <div class="galeria-item" data-categoria="especiais">
+          <img src="./assets/paella-congelada.jpg" alt="Paella Congelada">
+          <div class="galeria-info">
+            <h3>Paella Congelada</h3>
+            <p>R$ 109,90/kg</p>
+          </div>
+        </div>
+        
+        <div class="galeria-item" data-categoria="especiais">
+          <img src="./assets/espetinho de camarao.jpg" alt="Espetinho de Camarão">
+          <div class="galeria-info">
+            <h3>Espetinho de Camarão</h3>
+            <p>R$ 29,90/unidade</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal para Imagem Ampliada -->
+  <div class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <img src="" alt="" class="modal-image">
+    </div>
+  </div>
+
+  <!-- Contato -->
+  <section class="contato" id="contato">
+    <h2 class="section-title">Entre em Contato</h2>
+    
+    <div class="contato-container">
+      <div class="contato-info">
+        <h3>Informações de Contato</h3>
+        
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div>
+            <p>Av. Praia de Redonda, 1234</p>
+            <p>Icapuí - CE</p>
+          </div>
+        </div>
+        
+        <div class="info-item">
+          <div class="info-icon">📞</div>
+          <div>
+            <p>(88) 3456-7890</p>
+            <p>(88) 99876-5432</p>
+          </div>
+        </div>
+        
+        <div class="info-item">
+          <div class="info-icon">✉️</div>
+          <div>
+            <p>contato@ambilapescados.com.br</p>
+          </div>
+        </div>
+        
+        <div class="info-item">
+          <div class="info-icon">🕒</div>
+          <div>
+            <p><strong>Horário de Funcionamento:</strong></p>
+            <p>Segunda a Sábado: 7h às 18h</p>
+            <p>Domingo: 7h às 12h</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="contato-form">
+        <h3>Envie uma Mensagem</h3>
+        <form id="form-contato" onsubmit="enviarWhats(event)">
+          <div class="form-group">
+            <input id="nome" type="text" class="form-control" placeholder="Seu Nome" required>
+          </div>
+          <div class="form-group">
+            <input id="email" type="email" class="form-control" placeholder="Seu Email" required>
+          </div>
+          <div class="form-group">
+            <input id="telefone" type="tel" class="form-control" placeholder="Seu Telefone">
+          </div>
+          <div class="form-group">
+            <textarea id="mensagem" class="form-control" placeholder="Sua Mensagem" required></textarea>
+          </div>
+          <button type="submit" id="botao-enviar" class="btn">Enviar Mensagem</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Ambila Pescados</h3>
+        <p>Levando o melhor do mar para sua mesa desde 1992. Nossa missão é oferecer produtos frescos, de qualidade e com atendimento impecável.</p>
+        <div class="social-links">
+          <a href="#" class="social-icon">f</a>
+          <a href="#" class="social-icon">in</a>
+          <a href="#" class="social-icon">ig</a>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Links Rápidos</h3>
+        <ul class="footer-links">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Horário de Funcionamento</h3>
+        <div class="horario">
+          <span>Segunda - Sábado</span>
+          <span>7h - 18h</span>
+        </div>
+        <div class="horario">
+          <span>Domingo</span>
+          <span>7h - 12h</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="copyright">
+      <p>&copy; 2025 @DantasCrispim. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+<script src="script.js"></script>
+</html>
