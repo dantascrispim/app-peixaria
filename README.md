@@ -1,6 +1,6 @@
  ## 🖥️ Projeto Peixaria
-   Fala, galera! Depois de muito trabalho e dedicação, finalmente meu concluir mais esse app de uma peixaria real com produtos e filtros de produtos 🎉💻
-  Nele, você conseguir fazer suas escolhas de peixes de qualidades... 
+   Fala, galera! Depois de muito trabalho e dedicação, finalmente meu concluir mais esse app de uma peixaria real com produtos e filtros de produtos 🎉💻.
+   Nele, você conseguir fazer suas escolhas de peixes de qualidades... 
   
   Estou aberto a feedbacks, conexões e, claro, novas oportunidades! Vamos trocar ideias? 😃
 
